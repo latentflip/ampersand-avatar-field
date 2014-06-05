@@ -1,0 +1,25 @@
+{
+  "name": "ampersand-image-cropper-view",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/latentflip/ampersand-image-cropper-view"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/latentflip/ampersand-image-cropper-view/issues"
+  },
+  "homepage": "https://github.com/latentflip/ampersand-image-cropper-view",
+  "dependencies": {
+    "ampersand-dom": "^0.1.0",
+    "ampersand-view": "^4.2.3",
+    "avatar-cropper": "0.0.2",
+    "domify": "^1.2.2"
+  }
+}
