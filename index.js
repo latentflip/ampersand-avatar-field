@@ -1,6 +1,6 @@
 var AmpersandView = require('ampersand-view');
 var domify = require('domify');
-var AvatarCropper = require('avatar-cropper');
+var AvatarCropper = require('avatar-cropper-view');
 var SnapshotView = require('webcam-snapshot-view');
 var dom = require('ampersand-dom');
 
