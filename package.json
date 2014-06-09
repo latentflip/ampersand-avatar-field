@@ -16,7 +16,7 @@
   "dependencies": {
     "ampersand-dom": "^0.1.0",
     "ampersand-view": "^4.2.3",
-    "avatar-cropper": "0.0.2",
+    "avatar-cropper-view": "0.0.3",
     "domify": "^1.2.2"
   }
 }
