@@ -1,21 +1,18 @@
 {
-  "name": "ampersand-image-cropper-view",
+  "name": "ampersand-avatar-field",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/latentflip/ampersand-image-cropper-view"
+    "url": "git://github.com/latentflip/ampersand-avatar-field"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/latentflip/ampersand-image-cropper-view/issues"
+    "url": "https://github.com/latentflip/ampersand-avatar-field"
   },
-  "homepage": "https://github.com/latentflip/ampersand-image-cropper-view",
+  "homepage": "https://github.com/latentflip/ampersand-avatar-field",
   "dependencies": {
     "ampersand-dom": "^0.1.0",
     "ampersand-view": "^4.2.3",
