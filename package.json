@@ -15,7 +15,7 @@
   "homepage": "https://github.com/latentflip/ampersand-avatar-field",
   "dependencies": {
     "ampersand-dom": "^0.1.0",
-    "ampersand-view": "^4.2.3",
+    "ampersand-view": "^5.x.x",
     "avatar-cropper-view": "0.0.3",
     "domify": "^1.2.2"
   }
