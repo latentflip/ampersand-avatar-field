@@ -16,7 +16,7 @@
   "dependencies": {
     "ampersand-dom": "^0.1.0",
     "ampersand-view": "^5.x.x",
-    "ampersand-webcam-snapshot-view": "~0.0.2",
+    "ampersand-webcam-snapshot-view": "~0.0.3",
     "avatar-cropper-view": "0.0.3",
     "domify": "^1.2.2"
   }
