@@ -14,9 +14,9 @@
   },
   "homepage": "https://github.com/latentflip/ampersand-avatar-field",
   "dependencies": {
-    "ampersand-dom": "^0.1.0",
-    "ampersand-view": "^5.x.x",
-    "ampersand-webcam-snapshot-view": "~0.0.3",
+    "ampersand-dom": "^1.0.0",
+    "ampersand-view": "^6.x.x",
+    "ampersand-webcam-snapshot-view": "^1.0.0",
     "avatar-cropper-view": "^1.0.0",
     "domify": "^1.2.2"
   }
