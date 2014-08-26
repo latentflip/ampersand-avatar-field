@@ -8,10 +8,10 @@ var ModalView = require('./modal-view');
 
 var template = [
     '<div>',
-    '  <div><img role="preview"></div>',
-    '  <span role="label"></span>',
-    '  <a role="upload">Upload Picture</a>',
-    '  <a role="snapshot">Take Picture</a>',
+    '  <div><img data-hook="preview"></div>',
+    '  <span data-hook="label"></span>',
+    '  <a data-hook="upload">Upload Picture</a>',
+    '  <a data-hook="snapshot">Take Picture</a>',
     '</div>'
 ].join('\n');
 
@@ -36,8 +36,8 @@ var ImageCropperView = AmpersandView.extend({
     template: template,
     events: {
         'change input[type=file]' : 'changeImage',
-        'click [role=snapshot]' : 'openSnapshotModal',
-        'click [role=upload]' : 'openUploadDialog'
+        'click [data-hook~=snapshot]' : 'openSnapshotModal',
+        'click [data-hook~=upload]' : 'openUploadDialog'
     },
 
     props: {
@@ -48,7 +48,7 @@ var ImageCropperView = AmpersandView.extend({
     bindings: {
         value: {
             type: 'attribute',
-            role: 'preview',
+            hook: 'preview',
             name: 'src'
         }
     },
